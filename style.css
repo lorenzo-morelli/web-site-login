@@ -1,0 +1,95 @@
+body  {
+	background-image: url("Media/index_background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*td {
+	border: 2px solid black;
+}*/
+
+.tab_position {
+	/*border: 2px solid black;*/
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+
+.tab_position_reg {
+	/*border: 2px solid black;*/
+	position: absolute;
+	left: 8%;
+	top: 130px;
+}
+
+/*  */
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.subtext {
+	font-size: 10px;
+}
+
+.smussati {
+	border-radius: 10px 10px 10px 10px;
+}
+
+.right_but {
+	float: right;
+}
+
+.center_but {
+	float: inherit;/*chiedere -> centrare*/
+}
+
+.div_scritte {
+	position: absolute;
+	left: 20px;
+	top: 434px;
+}
+
+.messaggi_errore {
+	position: absolute;
+	left: 20px;
+	top: 414px;
+}
+
+.color_indietro {
+	color: white;
+	background-color: #008080;
+	height: 30px;
+	width: 80px;
+}
+
+.color_elimina {
+	color: white;
+	background-color: #990000;
+	border: 2px solid black;
+	width: 173px;
+}
+
+.color_invia {
+	color: white;
+	background-color: #009933;
+}
+
+.color_mod {
+	color: white;
+	background-color: #00ccff;
+}
+
+.color_logout {
+	color: black;
+	background-color: #ffff00;
+}
